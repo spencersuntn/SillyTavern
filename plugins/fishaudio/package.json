@@ -1,0 +1,8 @@
+{
+    "name": "sillytavern-fishaudio-plugin",
+    "version": "1.0.0",
+    "description": "Backend proxy for the Fish Audio TTS API",
+    "main": "index.js",
+    "type": "module",
+    "private": true
+}
