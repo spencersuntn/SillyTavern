@@ -39,6 +39,7 @@ import { ElectronHubTtsProvider } from './electronhub.js';
 import { ChutesTtsProvider } from './chutes.js';
 import { VolcengineTtsProvider } from './volcengine.js';
 import { applyLocale, t } from '/scripts/i18n.js';
+import { FishAudioTtsProvider } from './fishaudio.js';
 
 const UPDATE_INTERVAL = 1000;
 const wrapper = new ModuleWorkerWrapper(moduleWorker);
@@ -150,6 +151,7 @@ const ttsProviders = {
     VITS: VITSTtsProvider,
     XTTSv2: XTTSTtsProvider,
     Volcengine: VolcengineTtsProvider,
+    'Fish Audio': FishAudioTtsProvider,
 };
 let ttsProvider;
 let ttsProviderName;
